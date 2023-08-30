@@ -36,7 +36,7 @@ public class Pessoa {
     }
     public double calcularImc(){
         double imc = peso/(altura*altura);
-        return imc;
+        return imc;//
     }
    
     public void ClassificarImc(){
